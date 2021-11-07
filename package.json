@@ -1,0 +1,29 @@
+{
+  "name": "covid19-going-out-risk",
+  "version": "1.0.0",
+  "description": "the best way to prevention covid19",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoonchankim/wetube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "yoonchan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoonchankim/covid19-going-out-risk/issues"
+  },
+  "homepage": "https://github.com/yoonchankim/covid19-going-out-risk#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.13"
+  }
+}
